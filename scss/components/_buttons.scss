@@ -9,14 +9,14 @@
   
 .default {
     background-color: map-get($themes , 'default' );
-    &:hover {
-      background-color: lighten(map-get ($themes, 'default'), 20%);
+  &:hover {
+      background-color: lighten(map-get($themes, 'default'), 20%);
     }
   }
 .error {
     background-color: map-get($themes, 'error' );
   &:hover {
-    background-color: lighten(map-get($themes, 'error'), 15%);
+    background-color: lighten(map-get($themes, 'error'), 20%);
   }
 }
  
@@ -24,20 +24,20 @@
 .info {
     background-color:map-get($themes , 'info' );
    &:hover {
-      background-color: lighten(map-get ($themes, 'info'), 20%);
+    background-color: lighten(map-get($themes, 'info'), 20%);
   } 
 }
 
 .success {
     background-color: map-get($themes , 'success' );
    &:hover {
-      background-color: lighten(map-get ($themes, 'success'), 20%);
+      background-color: lighten(map-get($themes, 'success'), 20%);
   } 
   }
   
 .warning {
     background-color:map-get($themes , 'warning' );
   &:hover {
-      background-color: lighten(map-get ($themes, 'warning'), 20%);
+      background-color: lighten(map-get($themes, 'warning'), 20%);
   } 
 }
